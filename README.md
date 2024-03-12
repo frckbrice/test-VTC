@@ -1,4 +1,4 @@
 
-![first]('vtc1.png')'
+![first]('./vtc1.png')'
 ![second]('vtc2.png')
 ![third]('vtc3.png')
