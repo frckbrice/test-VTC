@@ -9,10 +9,15 @@
         width: 80%;
         display: flex;
         margin: 1.5rem 2rem;
-        background-color: #413e3e0a;
+        background-color: #fff;
         font-family: Poppins, roboto, Tahoma, Geneva,sans-serif;
         font-size: 14px;
         height: 78vh;
+        border: 1px solid darkred;
+      }
+
+      .left-card-wrapper {
+
       }
     
       .right-card {
@@ -23,14 +28,7 @@
         color: white;
         padding: 5px 10px;
       }
-    
-      .left-card {
-        flex-basis: 50%;
-        text-align: center;
-        color: white;
-        height: 90vh;
-      }
-    
+
       .wrapper {
         width: 100%;
         display: flex; 
@@ -38,9 +36,12 @@
         justify-content: flex-start;
         font-size: 14px;
         margin-top: 2rem;
+        padding: auto;
       }
       
       .wrapper .formlabel {
+        width: 100%;
+        margin: 0 auto;
         display: flex;
         justify-content: flex-start;
         margin-left: 3.2rem;
@@ -136,10 +137,13 @@
     .head-form-head {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         font-size: 12px;
         padding: 3rem;
         font-weight: 900;
     }
+
+   
     
       .submit {
         background-color: rgba(255, 77, 0, 0.923);
@@ -152,39 +156,28 @@
         font-size: 12px;
       }
     
-      .left-login {
-        color: #0101b3f3;;
-      }
-    
       .div-hr {
         width: 82%;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 1px;
-        background-color: #fff;
+        border-top: 1px solid #fff;
         margin: 0 auto;
       }
     
       .on-the-line {
-        display:  flex;
+        /* display:  flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
+        /* color: #fff; */
         background-color: #3d03de;
-        color: #fff;
-        transform: translate(220%, -50%);
+        transform: translate(200%, -80%);
         width: max-content;
         padding: 5px 10px;
         border-radius: 8px;
         font-size: 12px;
         z-index: 50;
-      }
-    
-      @media screen and (max-width: 800px) {
-        .hr {
-            width: 30%;
-        }
       }
     
     .div-btn {
@@ -232,6 +225,34 @@
         line-height: 1.5rem;
         font-size: 11px;
     }
+
+    .letf-card-wrapper {
+      padding: 2rem;
+    }
+
+   
       
 
- 
+ @media screen and (min-width: 768px ) {
+    .fa-eye {
+        .fa-eye {
+           transform: translateY(-50%);
+        }
+    }
+
+    .formlabel {
+        margin-left: 3rem;
+    }
+
+    .on-the-line {
+        transform: translate(110%, -50%);
+        z-index: 10;
+      }
+
+      .div-btn {
+        margin-right: 10px;
+      }
+    
+ }
+    
+

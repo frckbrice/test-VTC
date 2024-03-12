@@ -4,19 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {RouterProvider, createBrowserRouter} from "react-router-dom"
-import Form from './components/form';
+import Form from './components/LoginCard';
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App/>,
-    children: [
-        {
-          path: "/login",
-          element: <Form />,
-        },
-      
-     
-    ],
   }
 ])
 

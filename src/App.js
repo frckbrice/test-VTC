@@ -1,12 +1,10 @@
 
-import { Outlet } from 'react-router-dom';
-import Form from './components/form';
+import LoginCard from './components/LoginCard';
 
 function App() {
   return (
     <div className="App">
-      <Outlet/>
-      <Form/>
+      <LoginCard/>
     </div>
   );
 }
