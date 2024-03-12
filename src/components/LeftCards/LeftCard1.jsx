@@ -2,14 +2,21 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import style from './LeftCard1.module.css'
 import Button from '../Atoms/Button'
-import SLider from '../organisms/SLider'
-import SL from './Sl'
 
-const LeftCard1 = ({...props}) => {
+
+const LeftCard1 = ({setNextLeftCard,nextLeftCard}) => {
+const handleClick = () =>{
+    if(nextLeftCard === 1)
+        return;
+    else
+       setNextLeftCard((prev)=> prev - 1)
+
+}
+
   return (
     <section className={style["left-card"]}>
         <div className={style["div-button"]}>
-            <Button/>
+            <Button onClick={handleClick}/>
         </div>
         <div className={style["div-of-three"]}>
             <div className={style["div-image"]}>
@@ -24,7 +31,7 @@ const LeftCard1 = ({...props}) => {
         </div>
         
         <div className={style["div-slider"]}>
-            <button><img src="first-dash.png" alt="dash" className={style["img-dash"]}/></button>
+            <button onClick={setNextLeftCard(()=>2)}><img src="first-dash.png" alt="dash" className={style["img-dash"]}/></button>
         </div>
     </section>
   )
