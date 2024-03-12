@@ -15,9 +15,9 @@ function LoginCard() {
      
     <div className="card">
         {/* <Wrapper>  */}
-        <LeftCard1 value={nextLeftCard}/>
+        {/* <LeftCard1 value={nextLeftCard}/> */}
         {/* <LeftCard2 value={nextLeftCard}/> */}
-        {/* <LeftCard3 value={nextLeftCard}/> */}
+        <LeftCard3 value={nextLeftCard}/>
         {/* <SLider/> */}
 
         {/* </Wrapper> */}
