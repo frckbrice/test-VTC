@@ -1,24 +1,32 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, {useContext,useCallback} from 'react';
 import style from './LeftCard1.module.css'
-import Button from '../Atoms/Button'
+import Button from '../Atoms/Button';
+import { LogContext ,} from '../context'
 
 
-const LeftCard1 = ({setNextLeftCard,nextLeftCard}) => {
-const handleClick = () =>{
-    if(nextLeftCard === 1)
-        return;
-    else
-       setNextLeftCard((prev)=> prev - 1)
+const LeftCard1 = ({...props}) => {
+   
+    // const {nextCard, setNextCard } = useContext(LogContext)
+   
+    // useEffect(() => {
+        
+    //   },[nextCard, setNextCard]);
+console.log("leftcard 1: ", props.nextCard)
+    const handleClick = () =>{
+        if(props.nextCard === 1)
+            return;
+    }
 
-}
+    const next = ()=>{
+        props.setNextCard("B")
+    }
 
-  return (
-    <section className={style["left-card"]}>
-        <div className={style["div-button"]}>
+    return (
+       <section className={style["left-card"]}>
+         <div className={style["div-button"]}>
             <Button onClick={handleClick}/>
-        </div>
-        <div className={style["div-of-three"]}>
+         </div>
+         <div className={style["div-of-three"]}>
             <div className={style["div-image"]}>
                 <img src="GFS.png" alt="gfs-img" className={style.imgfs} />
             </div>
@@ -30,13 +38,13 @@ const handleClick = () =>{
             </div>
         </div>
         
-        <div className={style["div-slider"]}>
-            <button onClick={setNextLeftCard(()=>2)}><img src="first-dash.png" alt="dash" className={style["img-dash"]}/></button>
+        <div className={style["div-slider"]} >
+            <button onClick={()=>next()}>
+                <img src="first-dash.png" alt="dash" className={style["img-dash"]}/>
+            </button>
         </div>
     </section>
   )
 }
-
-LeftCard1.propTypes = {}
 
 export default LeftCard1

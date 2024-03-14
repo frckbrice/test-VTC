@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import './LoginForm.css'
 
 const LoginForm = props => {
+  const handleChange = () => {}
   return (
     <div className="right-card">
     <div className="head-form-head">
@@ -43,14 +44,14 @@ const LoginForm = props => {
                 id="password"
                 placeholder="password"
             />
-            <i class="fa fa-eye"></i>
+            <i className="fa fa-eye"></i>
         <div className="div-checked-passw">
             <div className="div-checked-keep-me">
                 <input
                     className="checkbox"
                     type="checkbox"
                     checked
-                    
+                    onChange={handleChange}
                 /> 
                 <span>Keep me logged in</span>
             </div>
@@ -68,13 +69,13 @@ const LoginForm = props => {
         <span className="on-the-line">&nbsp;Or login with&nbsp;</span>
         <div className="div-btn">
             <button className="buton">
-                <i class="fa fa-linkedin"></i>
+                <i className="fa fa-linkedin"></i>
             </button>
             <button className="buton">
-                <i class="fa fa-facebook"></i>
+                <i className="fa fa-facebook"></i>
             </button>
             <button className="buton">
-                <i class="fa fa-google"></i>
+                <i className="fa fa-google"></i>
             </button>
         </div>
 

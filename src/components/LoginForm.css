@@ -6,20 +6,17 @@
 }
 
     .card {
-        width: 80%;
+        width: 100%;
+        min-width: 1000px;
         display: flex;
         margin: 1.5rem 2rem;
         background-color: #fff;
         font-family: Poppins, roboto, Tahoma, Geneva,sans-serif;
         font-size: 14px;
         height: 78vh;
-        border: 1px solid darkred;
+        border: 0.5px solid rgba(139, 0, 0, 0.323);
       }
 
-      .left-card-wrapper {
-
-      }
-    
       .right-card {
         background: #0f0fc9d7;
         display: flex;
@@ -27,6 +24,7 @@
         flex-basis: 50%;
         color: white;
         padding: 5px 10px;
+        position: relative;
       }
 
       .wrapper {
@@ -83,8 +81,8 @@
     
     .fa-eye {
         position: absolute;
-        right: 22%;
-        top: 38%;
+        right: 21%;
+        top: 39%;
         padding: 10px;
         color: #a7a4a4;
         min-width: 50px;
@@ -167,15 +165,11 @@
       }
     
       .on-the-line {
-        /* transform: translate(200%, -80%); */
-        /* display:  flex;
-        justify-content: center;
-        align-items: center; */
-        /* color: #fff; */
         background-color: #3d03de;
-        position: absolute;
-        bottom: 41.5vh;
-        right: 41.5vw;
+        position: fixed;
+        bottom: 31vh;
+        right: 36vw;
+        transform: translateY(-5%);
         width: max-content;
         padding: 5px 10px;
         border-radius: 8px;
@@ -234,7 +228,10 @@
       padding: 2rem;
     }
 
-   
+   .logincard-div {
+    display: flex;
+    flex-direction: column;
+   }
       
 
  @media screen and (min-width: 768px ) {
