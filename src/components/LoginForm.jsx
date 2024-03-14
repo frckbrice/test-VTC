@@ -44,7 +44,7 @@ const LoginForm = props => {
                 id="password"
                 placeholder="password"
             />
-            <i className="fa fa-eye"></i>
+            {/* <i className="fa fa-eye"></i> */}
         <div className="div-checked-passw">
             <div className="div-checked-keep-me">
                 <input
@@ -65,8 +65,12 @@ const LoginForm = props => {
         >sign In</button>
         </div>
     
-        <div className="div-hr"></div>
-        <span className="on-the-line">&nbsp;Or login with&nbsp;</span>
+        <div className="div-hr">
+            <span className='span-line1'></span>
+            <span className='span-login'>&nbsp;Or login with&nbsp;</span>
+            <span className='span-line1'></span>
+        </div>
+        {/* <span className="on-the-line">&nbsp;Or login with&nbsp;</span> */}
         <div className="div-btn">
             <button className="buton">
                 <i className="fa fa-linkedin"></i>
