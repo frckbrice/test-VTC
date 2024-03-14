@@ -34,7 +34,8 @@ console.log("leftcard 1: ", props.nextCard)
             <h1 className={style["left-login-title"]}> Welcome <br /> to <br /> GFS Manager</h1>
             </div>
             <div>
-            <h5 className={style["left-login-text"]}>Your Logistic Information management system <br /> (LIMS ) ERP</h5>
+            <h5 className={style["left-login-text"]}>Your Logistic Information management system <br className='br'/> (LIMS ) ERP</h5>
+            <h5 className={style["left-login-text-plus"]}>Your Logistic Information management system <br />(LIMS ) ERP</h5>
             </div>
         </div>
         

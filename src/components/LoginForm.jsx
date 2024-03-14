@@ -63,6 +63,10 @@ const LoginForm = props => {
             className="submit"
             type="submit"
         >sign In</button>
+        <button
+            className="submit-plus"
+            type="submit"
+        >login</button>
         </div>
     
         <div className="div-hr">
@@ -70,7 +74,16 @@ const LoginForm = props => {
             <span className='span-login'>&nbsp;Or login with&nbsp;</span>
             <span className='span-line1'></span>
         </div>
-        {/* <span className="on-the-line">&nbsp;Or login with&nbsp;</span> */}
+
+        <div className="div-hr-replace">
+            &nbsp;Or login with&nbsp;<select name="select" id="" className='select-hr'></select>
+        </div>
+        <div className="div-btn-plus">
+            <span>Terms</span>
+            <span>Privacy</span>
+            <span>status</span>
+            <span>Data</span>
+        </div>
         <div className="div-btn">
             <button className="buton">
                 <i className="fa fa-linkedin"></i>
@@ -85,14 +98,19 @@ const LoginForm = props => {
 
    <div  className="div-end-head">
         <div className="div-end">
-            <span>Term</span>|
+            <span>Terms</span>|
             <span>Privacy</span>|
             <span>status</span>|
             <span>Data</span>
         </div>
         <div className="div-end-end">
-            <span>2024 LIMS Allright reserved</span>
+            <span className='last-line'>2024 LIMS All right reserved</span>
         
+        </div>
+        <div className="div-end-end-plus">
+        <span className='last-line-replae'>&copy;2024 LIMS.</span>
+        <span>All right reserved</span>
+
         </div>
    </div>
 </div>
