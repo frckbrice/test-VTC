@@ -263,10 +263,96 @@ display: flex;
 } 
 
 @media screen and (max-width: 500px ) {
-  
+  .right-card {
+    padding-bottom: 1rem;
+    border: 1px solid green;
+  }
+
+  .head-form-head {
+    display: none;
+  }
+
+  .formlabel {
+    margin-left: 2.5rem;
+  }
+
+  .div-login p {
+    display: none;
+  }
+
+  .div-login:after {
+    content: "Connect to your account";
+    margin: 2rem 0 10px 0;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  .loginForm-h2 {
+    display: none;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .submit {
+    margin-bottom: 0;
+  }
+
+  .left-login-text {
+    display: none;
+  }
+
+  .div-hr-replace {
+    display: block;
+  }
+
+  .div-hr {
+     display: none; 
+  } 
+
+  .div-btn {
+    display: none;
+  }
+
+  .div-btn-plus {
+    opacity: 1;
+  }
+
+  .div-end {
+    display: none;
+  }
+
+  .last-line-replae {
+    display: block;
+  }
+
+  .last-line {
+    display: none;
+  }
+
+  .div-end-end-plus {
+
+  }
+
+  .div-end-head {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submit-plus{
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .submit {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 430px ) {
+/* @media screen and (max-width: 430px ) {
   .right-card {
     padding-bottom: 1rem;
     border: 1px solid green;
@@ -335,6 +421,6 @@ display: flex;
   .submit {
     display: none;
   }
-}
+} */
 
 

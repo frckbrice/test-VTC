@@ -25,7 +25,21 @@ body {
 }
 
 
-@media screen and (max-width: 430px ) {
+/* @media screen and (max-width: 430px ) {
+    .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    body {
+        padding: 0;
+        display: block;
+    }
+} */
+
+@media screen and (max-width: 500px ) {
     .card {
         width: 100%;
         display: flex;
