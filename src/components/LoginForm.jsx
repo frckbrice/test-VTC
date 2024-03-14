@@ -50,7 +50,7 @@ const LoginForm = props => {
                 <input
                     className="checkbox"
                     type="checkbox"
-                    checked
+                    
                     onChange={handleChange}
                 /> 
                 <span>Keep me logged in</span>

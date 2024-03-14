@@ -6,10 +6,10 @@
     padding: 1.5rem 3rem;
   }
 
-  .div-image {
+  .div-img {
     width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 5rem;
   }
 
   .img-card{
@@ -35,7 +35,7 @@
   .div-buttons-span {
     display: flex;
     justify-content: flex-start;
-    color: #bbb;
+    color: #5f5c5c;
     margin: 1.5rem 0;
     
   }
@@ -44,6 +44,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1.5rem 0;
   }
 
   .buton-left {
@@ -76,4 +77,31 @@
 
   .div-slider {
     margin-top: 20px;
+  }
+
+  .span1 {
+    width: 30px;
+    height: 5px;
+    border-bottom: 1px solid #5f5c5c;
+    background-color: #5f5c5c;
+    
+  }
+
+  .span2 {
+    width: 10px;
+    height: 5px;
+    border-bottom: 1px solid #5f5c5c;
+  }
+
+  .span3 {
+    width: 30px;
+    height: 5px;
+    border-bottom: 1px solid #5f5c5c;
+  }
+
+  .button {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
   }

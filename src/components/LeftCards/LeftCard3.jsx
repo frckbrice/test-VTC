@@ -34,7 +34,7 @@ const LeftCard3 = ({setNextCard}) => {
             </div>
         </div>
         <div className={style["div-slider"]} >
-            <button onClick={restart}>
+            <button onClick={restart} className='button'>
                 <img src="second-dash.png" alt="dash" className={style["img-dash"]}/>
             </button>
         </div>

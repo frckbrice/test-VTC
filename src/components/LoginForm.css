@@ -13,8 +13,8 @@
         background-color: #fff;
         font-family: Poppins, roboto, Tahoma, Geneva,sans-serif;
         font-size: 14px;
-        height: 78vh;
-        border: 0.5px solid rgba(139, 0, 0, 0.323);
+        height: 100%;
+        border: 0.5px solid rgba(31, 7, 152, 0.289);
       }
 
       .right-card {
