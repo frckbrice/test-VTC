@@ -9,7 +9,7 @@
         width: 100%;
         min-width: 1000px;
         display: flex;
-        margin: 1.5rem 2rem;
+        margin: 1.5rem auto;
         background-color: #fff;
         font-family: Poppins, roboto, Tahoma, Geneva,sans-serif;
         font-size: 14px;
