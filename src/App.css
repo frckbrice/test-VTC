@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.5px solid aqua;
+    /* border: 0.5px solid aqua; */
     padding: 3rem;
  }
 
@@ -21,7 +21,7 @@ body {
     height: 100%;
     /* border: 0.5px solid rgba(31, 7, 152, 0.289); */
     flex-wrap: wrap;
-    border: 0.5px solid rgb(152, 7, 145);
+    /* border: 0.5px solid rgb(152, 7, 145); */
 }
 
 
