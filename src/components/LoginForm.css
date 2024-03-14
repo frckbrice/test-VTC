@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-   
+    border: 1px solid red;
 }
 
 .right-card {
@@ -12,6 +12,7 @@
   flex-basis: 50%;
   color: white;
   padding: 5px 10px;
+  
 }
 
   .wrapper {
@@ -26,7 +27,7 @@
   }
   
   .formlabel {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
@@ -261,9 +262,14 @@ display: flex;
   margin-top: 20px;
 } 
 
+@media screen and (max-width: 500px ) {
+  
+}
+
 @media screen and (max-width: 430px ) {
   .right-card {
     padding-bottom: 1rem;
+    border: 1px solid green;
   }
 
   .formlabel {

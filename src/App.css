@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
+    border: 0.5px solid aqua;
     padding: 3rem;
  }
 
@@ -19,8 +19,9 @@ body {
     font-family: Poppins, roboto, Tahoma, Geneva,sans-serif;
     font-size: 14px;
     height: 100%;
-    border: 0.5px solid rgba(31, 7, 152, 0.289);
+    /* border: 0.5px solid rgba(31, 7, 152, 0.289); */
     flex-wrap: wrap;
+    border: 0.5px solid rgb(152, 7, 145);
 }
 
 
