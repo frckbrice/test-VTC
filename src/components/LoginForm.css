@@ -24,7 +24,6 @@
         flex-basis: 50%;
         color: white;
         padding: 5px 10px;
-        position: relative;
       }
 
       .wrapper {
@@ -35,6 +34,7 @@
         font-size: 14px;
         margin-top: 2rem;
         padding: auto;
+        position: relative; 
       }
       
       .wrapper .formlabel {
@@ -78,11 +78,14 @@
         justify-content: center;
         gap: 7px;
     }
+
+    input[type="checkbox"]::placeholder {
+      position: relative;   
+    }
     
     .fa-eye {
         position: absolute;
-        right: 21%;
-        top: 39%;
+        transform: translate(200%, -20%);
         padding: 10px;
         color: #a7a4a4;
         min-width: 50px;
@@ -155,46 +158,38 @@
       }
     
       .div-hr {
-        width: 82%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        border-top: 1px solid #fff;
-        margin: 0 auto;
-      }
-    
-      .on-the-line {
-        background-color: #3d03de;
-        position: absolute;
-        bottom: 20vh;
-        right: 20vw;
-        transform: translateY(-5%);
-        width: max-content;
-        padding: 5px 10px;
-        border-radius: 8px;
-        font-size: 12px;
-        z-index: 50;
-      }
-    
-    .div-btn {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 0.2rem;
         margin: 0 auto;
-        margin-top: 1.5rem;
+        padding: 0 2rem;
+      }
+
+      .div-hr .span-line1 {
+        width: 35%;
+        border-bottom: 1px solid #eee;
+      }
+    
+    .div-btn {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.2rem;
+      margin: 0 auto;
+      margin-top: 1.5rem;
     }
     
     .buton {
-        width: 25%;
-        padding: 10px 42px;
-        border: 1px solid #ccc;
-        background-color: transparent;
-        border-radius: 8px;
-        margin: 0.8rem 0 0 0.7rem;
+      width: 25%;
+      padding: 10px 42px;
+      border: 1px solid #ccc;
+      background-color: transparent;
+      border-radius: 8px;
+      margin: 0.8rem 0 0 0.7rem;
     }
+
     .fa-facebook,
     .fa-google, 
     .fa-linkedin {
