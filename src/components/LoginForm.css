@@ -166,9 +166,9 @@
     
       .on-the-line {
         background-color: #3d03de;
-        position: fixed;
-        bottom: 31vh;
-        right: 36vw;
+        position: absolute;
+        bottom: 20vh;
+        right: 20vw;
         transform: translateY(-5%);
         width: max-content;
         padding: 5px 10px;
