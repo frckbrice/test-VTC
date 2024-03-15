@@ -94,6 +94,8 @@
     width: 100%;
   }
 
+
+
   body {
     padding: 0;
   }
@@ -120,12 +122,32 @@
    height: 100%;
     width: 100%;
   } 
+
+  .left-card {
+    padding:0;
+    width: 100%;
+  } 
+
+  .imgfs{
+    width: 150px;
+    height: 100px;
+  }
+
+  .div-slider {
+    margin-bottom: 20px;
+  }
+
+  
  
 }
 
 @media screen and (max-width: 320px){
   .left-card {
-    padding: 0.5rem 1rem 1rem;
+    padding:0;
     width: 100%;
   } 
+
+  .div-image {
+    padding: 0 1rem;
+  }
 }
