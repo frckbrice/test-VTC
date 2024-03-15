@@ -81,3 +81,51 @@
   .div-slider {
     margin-top: 20px;
   }
+
+  .left-login-text-plus {
+    display: none;
+  }
+
+/* @media screen and (max-width: 430px){ */
+  @media screen and (max-width: 500px ){
+  .left-card{
+    /* background-color: red; */
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .div-button, .div-image {
+    display: none;
+  }
+
+  .br {
+    display: none;
+  }
+
+  .left-login-text-plus{
+    display: block;
+    width: 100%;
+    color: orangered;
+  }
+
+  .left-login-text {
+    display: none;
+  }
+
+  .div-of-three  {
+   height: 100%;
+    width: 100%;
+  } 
+ 
+}
+
+@media screen and (max-width: 320px){
+  .left-card {
+    padding: 0.5rem 1rem 1rem;
+    width: 100%;
+  } 
+}
