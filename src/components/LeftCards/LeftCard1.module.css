@@ -94,6 +94,8 @@
     width: 100%;
   }
 
+
+
   body {
     padding: 0;
   }
@@ -131,6 +133,11 @@
     height: 100px;
   }
 
+  .div-slider {
+    margin-bottom: 20px;
+  }
+
+  
  
 }
 

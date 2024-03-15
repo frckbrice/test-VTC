@@ -149,6 +149,9 @@
 
 }
 
+.div-image {
+  width: auto;
+}
 
 }
 
@@ -168,9 +171,9 @@
     /* background-color: red; */
   }
 
-  .mobile-header {
+  /* .mobile-header {
     background-color: red;
-  }
+  } */
 
   .menu {
     width: 60px;
