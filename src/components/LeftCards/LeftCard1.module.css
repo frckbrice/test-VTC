@@ -91,6 +91,7 @@
   .left-card{
     /* background-color: red; */
     flex-basis: 100%;
+    width: 100%;
   }
 
   body {
@@ -120,4 +121,11 @@
     width: 100%;
   } 
  
+}
+
+@media screen and (max-width: 320px){
+  .left-card {
+    padding: 0.5rem 1rem 1rem;
+    width: 100%;
+  } 
 }

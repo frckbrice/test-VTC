@@ -230,8 +230,6 @@ input[type="checkbox"]::placeholder {
 display: flex;
   flex-direction: column;
 }
-
-
   
 .div-hr-replace {
   display: none;
@@ -245,13 +243,8 @@ display: flex;
   font-size: 12px;
 }
 
-.div-btn-plus {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 30px;
-  opacity: 0;
+.div-btn-plus { 
+ display: none;
 }
 
 .div-end-end-plus {
@@ -265,6 +258,7 @@ display: flex;
 @media screen and (max-width: 500px ) {
   .right-card {
     padding-bottom: 1rem;
+    width: 100%;
   }
 
   .head-form-head {
@@ -315,7 +309,12 @@ display: flex;
   }
 
   .div-btn-plus {
-    opacity: 1;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
   }
 
   .div-end {
@@ -330,9 +329,7 @@ display: flex;
     display: none;
   }
 
-  .div-end-end-plus {
 
-  }
 
   .div-end-head {
     margin-top: 0;

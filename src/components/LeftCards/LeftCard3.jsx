@@ -17,7 +17,7 @@ const LeftCard3 = ({setNextCard}) => {
     console.log("setNextCard in leftcard 3: ", setNextCard)
   return (
     <section className={style["left-card"]}>
-         <div className={style["div-button"]} onClick={()=>handleClick()}>
+        <div className={style["div-button"]} onClick={()=>handleClick()}>
             <Button/>
         </div>
 
@@ -34,9 +34,9 @@ const LeftCard3 = ({setNextCard}) => {
             <select className={style.select}></select>
             <IoMenu className={style.menu} onClick={()=>restart()}/>
           </div>
-      </div>
+        </div>
         <div className={style["div-img-plus"]}>
-            <img src="gfs-play.png" alt="plan-of-work" className={style["img-card"]}/>
+            <img src="gfs-play.png" alt="plan-of-work" className={style["img-card-plus"]}/>
         </div>
         <div className={style["div-buttons"]}>
             <div className={style["div-buttons-span"]}>

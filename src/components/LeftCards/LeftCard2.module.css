@@ -9,11 +9,12 @@
 }
 
 .div-img {
+ 
   background-image: url("../../../public/human.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 700px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,11 +50,11 @@
 }
 
 .mobile-header {
-  /* opacity: 1; */
+  /* opacity: 0; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  display: none;
 }
 
 .menu {
@@ -64,20 +65,31 @@
   display: none;
 }
 
+.img {
+  display: none;
+}
+
+.div-image {
+  width: 100%;
+}
 
 @media screen and (max-width: 500px) {
   .div-img {
+    background: none;
     background: url("/public/human-mobile.png");
-    /* background-repeat: no-repeat; */
     background-position: center;
+    background-size: cover;
     width: 100%;
     padding: 0;
+    height: 500px;
     position: relative;
+    margin: 0 auto;
   }
 
   .left-card {
     padding: 0;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
   }
 
   .div-slider {
@@ -100,6 +112,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
   }
 
   .div-head-right {
@@ -125,6 +138,7 @@
   }
 
   .img {
+    display: block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -135,4 +149,15 @@
 }
 
 
+}
+
+@media screen and (max-width: 320px){
+  .left-card {
+    padding: 0.5rem 1rem 1rem;
+    width: 100%;
+  } 
+
+  .div-image {
+    width: 100%;
+  }
 }

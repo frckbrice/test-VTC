@@ -15,6 +15,7 @@ const LeftCard2 = ({setNextCard}) => {
   }
   return (
     <section className={style["left-card"]}>
+
       <div className={style['mobile-header']}>
           <div className={style["div-image"]}>
               <img src="GFS.png" alt="gfs-img" className={style.imgfs} />
@@ -26,6 +27,7 @@ const LeftCard2 = ({setNextCard}) => {
             <IoMenu className={style.menu}/>
           </div>
       </div>
+
         <div className={style["div-img"]} >
           <div className={style["div-button"]}>
             <button onClick={back}>
