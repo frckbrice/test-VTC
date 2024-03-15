@@ -43,7 +43,7 @@ const LeftCard3 = ({setNextCard}) => {
                 <span>Don't know how to use the App ?</span>
             </div>
             <div className={style["div-buuton-direct"]}>
-                <button className={style["buton-left"]}>user documentation guide
+                <button className={style["buton-left"]}>user documentation
                 </button>
                 <button className={style["buton-right"]}>Technical assistant
                 </button>
