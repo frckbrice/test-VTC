@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .right-card {
@@ -348,75 +348,18 @@ display: flex;
   }
 }
 
-/* @media screen and (max-width: 430px ) {
+ @media screen and (max-width: 320px ) {
   .right-card {
-    padding-bottom: 1rem;
-    border: 1px solid green;
+    width: 320px
   }
 
-  .formlabel {
-    margin-left: 2.5rem;
-  }
-
-  body {
-    padding: 0;
-  }
-
-  .submit {
-    margin-bottom: 0;
-  }
-
-  .left-login-text {
-    display: none;
-  }
-
-  .div-hr-replace {
-    display: block;
-  }
-
-  .div-hr {
-     display: none; 
-  } 
-
-  .div-btn {
-    display: none;
-  }
-
-  .div-btn-plus {
-    opacity: 1;
-  }
-
-  .div-end {
-    display: none;
-  }
-
-  .last-line-replae {
-    display: block;
-  }
-
-  .last-line {
-    display: none;
-  }
-
-  .div-end-end-plus {
-
+  .wrapper {
+    width: 100%;
   }
 
   .div-end-head {
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
   }
-
-  .submit-plus{
-    display: block;
-    margin-bottom: 0;
-  }
-
-  .submit {
-    display: none;
-  }
-} */
+} 
 
 
