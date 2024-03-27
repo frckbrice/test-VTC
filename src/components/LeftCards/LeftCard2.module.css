@@ -3,8 +3,6 @@
   
   text-align: center;
   color: white;
-  height: 100%;
-  min-width: 400px;
   padding: 1.5rem 2rem;
 }
 
@@ -40,6 +38,8 @@
   justify-content: flex-start;
   padding: 0.3rem .5rem;
   border-radius: 8px;
+  border: none;
+  background-color: transparent;
 }
 
 .img-back {
@@ -71,6 +71,24 @@
 
 .div-image {
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .left-card {
+    padding: 0.5rem;
+  }
+
+  .div-img {
+    background: none;
+    background: url("/public/human-mobile.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -172,9 +190,10 @@
     /* background-color: red; */
   }
 
-  /* .mobile-header {
-    background-color: red;
-  } */
+ .div-slider {
+  width: 100%;
+  margin: 0 auto;
+ }
 
   .menu {
     width: 60px;

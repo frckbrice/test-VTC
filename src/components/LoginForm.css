@@ -1,9 +1,4 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    /* border: 1px solid red; */
-}
+
 
 .right-card {
   background: #0f0fc9d7;
@@ -11,128 +6,127 @@
   flex-direction: column;
   flex-basis: 50%;
   color: white;
-  padding: 5px 10px;
-  
+  width: 400px;
 }
 
-  .wrapper {
-    width: 100%;
-    display: flex; 
-    flex-direction: column;
-    justify-content: flex-start;
-    font-size: 14px;
-    margin-top: 2rem;
-    padding: auto;
-    position: relative; 
-  }
-  
-  .formlabel {
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-start;
-    /* justify-content: flex-start; */
-    margin-left: 2.5rem;
-    font-size: 12px;
-  }
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 14px;
+  margin-top: 2rem;
+  padding: auto;
+  position: relative;
+}
 
-  .wrapper .formlabel.password {
-    margin-top: 5px;
-  }
+.formlabel {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  margin-left: 2.5rem;
+  font-size: 12px;
+}
 
-  .wrapper .checkbox {
-    position: left;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-  }
+.wrapper .formlabel.password {
+  margin-top: 5px;
+}
 
-  .div-login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* margin-top: 2rem; */
-  }
+.wrapper .checkbox {
+  position: left;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
 
-  .div-checked-passw {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0.3rem auto;
-    font-size: 11px;
+.div-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 2rem; */
+}
+
+.div-checked-passw {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem auto;
+  font-size: 11px;
 }
 
 .div-checked-keep-me {
-    display: flex;
-    justify-content: center;
-    gap: 7px;
+  display: flex;
+  justify-content: center;
+  gap: 7px;
 }
 
 input[type="checkbox"]::placeholder {
-  position: relative;   
+  position: relative;
 }
 
 .fa-eye {
-    position: absolute;
-    transform: translate(200%, -20%);
-    padding: 10px;
-    color: #a7a4a4;
-    min-width: 50px;
-    text-align: center;
-    z-index: 10;
+  position: absolute;
+  transform: translate(200%, -20%);
+  padding: 10px;
+  color: #a7a4a4;
+  min-width: 50px;
+  text-align: center;
+  z-index: 10;
 }
 
 .password {
-    position: relative;
-    z-index: 0;
+  position: relative;
+  z-index: 0;
 }
-  
+
 .wrapper .forminput {
-    width: 82%;
-    padding: 10px 15px;
-    font-size: .75rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 10px auto;
-    margin-top: 2px;
+  width: 82%;
+  padding: 10px 15px;
+  font-size: .75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px auto;
+  margin-top: 2px;
 }
 
 .img {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
 .div-head-right {
-    display: flex;
-    align-items: center;
-    gap: 3px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .select,
 .select-hr {
-    background-color: transparent;
-    border: 0;
-    color:#fff;
-    font-size: 5px;
-    height: 5px;
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 5px;
+  height: 5px;
 }
 
 .text-head {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
 }
 
 .head-form-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-        font-size: 12px;
-        padding: 3rem;
-    font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 3rem;
+  font-weight: 900;
 }
 
 
@@ -160,19 +154,19 @@ input[type="checkbox"]::placeholder {
   display: none;
 }
 
-  .div-hr {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
+.div-hr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
 
-  .div-hr .span-line1 {
-    width: 35%;
-    border-bottom: 1px solid #eee;
-  }
+.div-hr .span-line1 {
+  width: 35%;
+  border-bottom: 1px solid #eee;
+}
 
 .div-btn {
   width: 100%;
@@ -194,32 +188,32 @@ input[type="checkbox"]::placeholder {
 }
 
 .fa-facebook,
-.fa-google, 
+.fa-google,
 .fa-linkedin {
-    color: #fff;
+  color: #fff;
 }
 
 .div-end-head {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
 }
 
 .div-end {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 11px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 11px;
 }
 
 .div-end-end span {
-    line-height: 1.5rem;
-    font-size: 11px;
+  line-height: 1.5rem;
+  font-size: 11px;
 }
 
 .letf-card-wrapper {
@@ -227,10 +221,10 @@ input[type="checkbox"]::placeholder {
 }
 
 .logincard-div {
-display: flex;
+  display: flex;
   flex-direction: column;
 }
-  
+
 .div-hr-replace {
   display: none;
   width: 83.5%;
@@ -243,8 +237,8 @@ display: flex;
   font-size: 12px;
 }
 
-.div-btn-plus { 
- display: none;
+.div-btn-plus {
+  display: none;
 }
 
 .div-end-end-plus {
@@ -253,12 +247,20 @@ display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
-} 
+}
 
-@media screen and (max-width: 500px ) {
+@media screen and (max-width: 768px) {
+  .right-card {
+    padding-bottom: 1rem;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .right-card {
     padding-bottom: 1rem;
     width: 100%;
+    min-width: 100%;
   }
 
   .head-form-head {
@@ -301,8 +303,8 @@ display: flex;
   }
 
   .div-hr {
-     display: none; 
-  } 
+    display: none;
+  }
 
   .div-btn {
     display: none;
@@ -338,7 +340,7 @@ display: flex;
     align-items: center;
   }
 
-  .submit-plus{
+  .submit-plus {
     display: block;
     margin-bottom: 0;
   }
@@ -348,7 +350,7 @@ display: flex;
   }
 }
 
- @media screen and (max-width: 320px ) {
+@media screen and (max-width: 320px) {
   .right-card {
     width: 320px
   }
@@ -360,6 +362,4 @@ display: flex;
   .div-end-head {
     width: 100%;
   }
-} 
-
-
+}
