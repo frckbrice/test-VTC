@@ -1,40 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+}
+
 body {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(31, 7, 152, 0.289);
     padding: 3rem;
- }
+}
 
- .card {
+.card {
     width: 100%;
     max-width: 1000px;
     display: flex;
     flex-direction: row;
     margin: 1.5rem auto;
     background-color: #fff;
-    font-family: Poppins, roboto, Tahoma, Geneva,sans-serif;
+    font-family: Poppins, roboto, Tahoma, Geneva, sans-serif;
     font-size: 14px;
-    height: 100%;
-    border: 0.5px solid rgba(31, 7, 152, 0.289);
+    /* height: 100%; */
+    border: 0.5px solid rgba(31, 7, 152, 0.938);
 }
 
-/* 
-@media screen and (max-width: 320px ) {
+body {
+    border: 1px solid greenyellow;
+}
+
+@media screen and (max-width: 768px) {
     .card {
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
+        padding: 0;
+        max-width: 700px;
+        margin: 0 auto;
     }
 
     body {
         padding: 0;
-        display: block;
     }
-} */
 
-@media screen and (max-width: 500px ) {
+}
+
+@media screen and (max-width: 500px) {
     .card {
         width: 100%;
         display: flex;
@@ -44,6 +50,6 @@ body {
 
     body {
         padding: 0;
-        display: block;
+        /* display: block; */
     }
 }
