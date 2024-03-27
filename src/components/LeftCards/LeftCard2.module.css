@@ -39,13 +39,18 @@
   padding: 0.3rem .5rem;
   border-radius: 8px;
   border: none;
-  background-color: transparent;
+}
+
+.div-button button {
+  padding: 0;
+  border: none;
+  border-radius: 8px;
 }
 
 .img-back {
   width: 100px;
-  height: 50px;
-  border-radius: 10px;
+  height: 100%;
+  border-radius: 8px;
   border: 0
 }
 
